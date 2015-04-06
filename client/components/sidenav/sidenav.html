@@ -1,0 +1,25 @@
+<md-sidenav class="md-sidenav-left sidenav" md-component-id="leftSideNav" md-is-locked-open="$mdMedia('gt-md')">
+
+  <md-toolbar layout="row" ng-controller="NavbarCtrl as NavBar">
+    <div class="md-toolbar-tools">
+      <md-button class="menu-sidebar" ng-click="SideNav.toggleSideBar()" hide-gt-md
+                 aria-label="Press to show side bar menu">
+        <md-icon md-svg-icon="menu"></md-icon>
+      </md-button>
+      <h1>Solnet</h1>
+    </div>
+  </md-toolbar>
+
+
+  <md-list>
+    <md-item ng-repeat="item in menu">
+      <div class="options-wrap">
+        <div class="options">{{item.title}}</div>
+        <div ng-repeat="subItem in item.subs"><a ng-href="{{subItem.link}}"
+                                                 ng-click="SideNav.toggleSideBar()" class="options second-opt">{{subItem
+          .title}}</a></div>
+
+      </div>
+    </md-item>
+  </md-list>
+</md-sidenav>

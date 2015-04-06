@@ -1,0 +1,40 @@
+.menu-sidebar {
+  background-color: transparent;
+  border: none;
+  height: 48px;
+  margin: 16px;
+  width: 46px;
+  color: #ffffff;
+}
+
+.menu-wrapper {
+  text-align: right;
+}
+
+.sidenav {
+  background-color: #060606;
+}
+
+.options {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+
+.options:hover {
+  color: #444400;
+}
+
+.second-opt {
+  color: #ffffff;
+  font-size: .8rem;
+}
+
+.options-wrap{
+  padding: 15px;
+  margin-left: 30px;
+}
+
+.options-wrap p {
+  color: #ffffff;
+}

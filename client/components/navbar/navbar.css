@@ -1,0 +1,19 @@
+.menu {
+  background-color: transparent;
+  border: none;
+  height: 48px;
+  margin: 16px;
+  width: 46px;
+}
+
+
+md-button.menuBtn > md-icon {
+  fill:white;
+  width:34px;
+  height:34px;
+}
+
+
+md-toolbar h1 {
+  margin: auto;
+}

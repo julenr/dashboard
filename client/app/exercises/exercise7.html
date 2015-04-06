@@ -1,0 +1,16 @@
+
+<md-whiteframe class="md-whiteframe-z2" layout layout-align="center center">
+  <md-subheader class="md-primary"><strong>Exercise 7:</strong> Create a function that return the
+    business companies with its balances of the year 2014 ranked by biggest balance.</md-subheader>
+</md-whiteframe>
+<md-list>
+  <md-list-item class="md-3-line" ng-repeat="company in companies">
+    <div class="md-list-item-text">
+      <h3>{{ company.businessName }}</h3>
+      <h5>{{ company.balance }}</h5>
+    </div>
+  </md-list-item>
+</md-list>
+
+
+

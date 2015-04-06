@@ -1,0 +1,15 @@
+<md-whiteframe class="md-whiteframe-z2" layout layout-align="center center">
+  <md-subheader class="md-primary"><strong>Exercise 8:</strong> Create a function that returns an
+    aggregated
+    result of 2014 year with all maximum value of each transaction type.</md-subheader>
+</md-whiteframe>
+
+<md-list>
+  <md-list-item class="md-3-line" ng-repeat="company in companies">
+    <div class="md-list-item-text">
+      <h3>{{ company.type }}</h3>
+      <h5>{{ company.amount}}</h5>
+    </div>
+  </md-list-item>
+</md-list>
+
