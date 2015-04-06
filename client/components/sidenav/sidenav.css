@@ -27,7 +27,9 @@
 
 .second-opt {
   color: #ffffff;
-  font-size: .8rem;
+  font-size: 1rem;
+  margin-left: 10px;
+  margin-top: 15px;
 }
 
 .options-wrap{

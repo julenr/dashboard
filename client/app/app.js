@@ -24,7 +24,7 @@ angular.module('dashboardApp', [
       .icon("phone"      , "./assets/svg/phone.svg"       , 512);
 
     $mdThemingProvider.theme('default')
-      .primaryPalette('brown')
+      .primaryPalette('blue')
       .accentPalette('red');
 
     $locationProvider.html5Mode(true);

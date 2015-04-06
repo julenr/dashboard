@@ -17,10 +17,12 @@ angular.module('dashboardApp')
 
     // implementation
     function getData() {
-      return $http.get("/api/things")
-        .success(function(data) {
-          service.data = data;
-        });
+      if(!service.data.length){
+        return $http.get("/api/things")
+          .success(function(data) {
+            service.data = data;
+          });
+      }
     }
 
     function exercise2(field) {
