@@ -6,7 +6,7 @@ angular.module('dashboardApp')
 
     $scope.menu = [
       {
-        'title': 'EXERCISES', 'link1': '#',
+        'title': 'EXERCISES', 'link': '/',
         'subs': [
           {'title': 'Exercise 1', 'link': '/test/exercise1'},
           {'title': 'Exercise 2', 'link': '/test/exercise2'},

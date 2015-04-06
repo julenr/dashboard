@@ -14,7 +14,9 @@
   <md-list>
     <md-item ng-repeat="item in menu">
       <div class="options-wrap">
-        <div class="options">{{item.title}}</div>
+        <div class="options"><a ng-href="{{item.link}}"
+                                              ng-click="SideNav.toggleSideBar()"
+                                              class="options">{{item.title}}</a></div>
         <div ng-repeat="subItem in item.subs"><a ng-href="{{subItem.link}}"
                                                  ng-click="SideNav.toggleSideBar()" class="options second-opt">{{subItem
           .title}}</a></div>
